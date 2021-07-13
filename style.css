@@ -133,16 +133,24 @@ p a {
 /* Lattest Courses */
 
 .courses {
-    margin-top: 24px;
+    margin-top: 14px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
 }
 
+.course {
+    padding: 16px;
+    width: 237px;
+    box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+}
 
 .course img {
-    width: 216px;
-    height: 117px;
+
+    width: 224px;
+    height: 104px;
+
 }
 
 .course-detail p {
@@ -192,7 +200,7 @@ p a {
     .courses {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        gap: 50px;
+
     }
 
 
