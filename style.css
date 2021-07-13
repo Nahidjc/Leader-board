@@ -19,9 +19,10 @@ main {
 
 .container {
     width: 850px;
-
+    border-radius: 10px;
     padding: 20px;
     background-color: #FFFFFF;
+    margin-top: 20px;
 
 }
 
@@ -54,4 +55,50 @@ hr {
     border: 1px solid #D1D1D1;
     margin-top: 27px;
     margin-bottom: 27px;
+}
+
+.blogs {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+
+}
+
+.blog img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-detail {
+    margin-left: 16px;
+}
+
+.blog-detail p {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+
+p a {
+    text-decoration: none;
+    color: #562EFF;
+
+}
+
+/* Lattest Courses */
+
+.courses {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course img {
+    width: 216px;
+    height: 117px;
 }
