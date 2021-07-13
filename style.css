@@ -94,11 +94,26 @@ p a {
 
 .courses {
     margin-top: 24px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
 }
+
 
 .course img {
     width: 216px;
     height: 117px;
+}
+
+.course-detail p {
+    color: #ED6B4F;
+}
+
+.fa-star {
+
+    color: #AEAEAE;
+}
+
+.filled {
+    color: #FFC014;
 }
