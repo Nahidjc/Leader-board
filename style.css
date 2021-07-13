@@ -20,7 +20,7 @@ main {
 .container {
     width: 850px;
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     background-color: #FFFFFF;
     margin-top: 20px;
 
@@ -109,6 +109,8 @@ p a {
     color: #ED6B4F;
 }
 
+
+
 .fa-star {
 
     color: #AEAEAE;
@@ -116,4 +118,12 @@ p a {
 
 .filled {
     color: #FFC014;
+}
+
+.clock {
+    display: inline-block;
+    background-color: #FFE4E8;
+    color: #FF4A60;
+    padding: 7px;
+    border-radius: 14.6913px;
 }
